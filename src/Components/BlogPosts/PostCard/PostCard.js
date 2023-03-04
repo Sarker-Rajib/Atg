@@ -68,16 +68,23 @@ const PostCard = ({ data }) => {
                 }
                 <div className="d-flex justify-content-between">
                     <div className='d-flex align-items-center'>
-                        {
-                            avatar && <img src={avatar} alt="avatar" className='me-2' />
-                        }
-                        {
-                            writer && <p className='writter m-0'>{writer}</p>
-                        }
+                        <div>
+                            {
+                                avatar && <img src={avatar} alt="avatar" className='me-2' />
+                            }
+                        </div>
+                        <div>
+                            {
+                                writer && <p className='writter m-0'>{writer}</p>
+                            }
+                            {
+                                <p className='view d-block d-lg-none'><img className='me-2' src={eye} alt="eye" />{view}k views</p>
+                            }
+                        </div>
                     </div>
                     <div className='d-flex align-items-center'>
-                        <p className='view'><img className='me-2' src={eye} alt="eye" />{view}k views</p>
-                        <a href="/" className="sharebtn"><img className='flex-shrink-0' src={sharebt} alt="s" /></a>
+                        <p className='view d-none d-lg-block'><img className='me-2' src={eye} alt="eye" />{view}k views</p>
+                        <a href="/" className="sharebtn"><img className='flex-shrink-0' src={sharebt} alt="s" /><span className='d-inline-block d-lg-none ms-2 text-dark'>Share</span></a>
                     </div>
                 </div>
             </div>

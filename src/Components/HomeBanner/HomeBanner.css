@@ -30,6 +30,7 @@
     color: #FFFFFF;
 }
 
+
 .banner p {
     font-weight: 400;
     font-size: 18px;
@@ -39,4 +40,45 @@
 
 .banner .container {
     max-width: 1040px;
+}
+
+.banner .mobile-nav {
+    position: absolute;
+    z-index: 99;
+    top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.banner .joinBtn {
+    border: 0.8px solid #FFFFFF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+@media(max-width: 767px) {
+    .banner {
+        min-height: 240px;
+        background: url(./../../assets/images/banner-m.png) no-repeat top center/cover;
+    }
+
+    .banner h2 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .banner p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .content {
+        padding-bottom: 32px;
+    }
 }

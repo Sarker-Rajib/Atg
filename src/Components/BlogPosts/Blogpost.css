@@ -52,3 +52,23 @@
 .blog .cards {
     max-width: 695px;
 }
+
+.blog .search-opt {
+    max-width: 245px;
+}
+
+@media(max-width: 1199px) {
+    .blog .search-opt {
+        display: none;
+    }
+}
+
+.blog .search-opt .not {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.5;
+}

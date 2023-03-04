@@ -19,8 +19,85 @@ input:focus {
     line-height: 21px;
     color: #2E2E2E;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .account span {
     color: #2F6CE5;
+}
+
+.modal-content {
+    background: #efefef;
+    border: none !important;
+    max-width: 736px;
+}
+
+.modal-content .head {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #008A45;
+    background: #EFFFF4;
+    margin: 0;
+    padding: 18px;
+}
+
+.modal-content h3 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.modal-content .sos-button {
+    width: 100%;
+    margin-top: 18px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.modal-content .acc-button {
+    height: 40px;
+    width: 100%;
+    background: #2F6CE5;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 18px;
+}
+
+.modal-content .signIn {
+    cursor: pointer;
+    color: #2F6CE5;
+}
+
+.modal-content input {
+    height: 46px;
+    background: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    width: 100%;
+    padding: 15px;
+}
+
+.modal-content .modal-header {
+
+    background: transparent !important;
+}
+
+.modal-content .modal-body {
+    background: #FFFFFF;
+    border-radius: 8px;
 }
