@@ -1,0 +1,106 @@
+.card-body {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.card-body .text {
+    padding: 20px;
+}
+
+.card-body .type {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 10px;
+}
+
+.card-body .heading {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.55%;
+    padding-bottom: 12px;
+}
+
+.card-body .details {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134.17%;
+    color: #5C5C5C;
+    padding-bottom: 32px;
+}
+
+.card-body .writter {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.card-body .view {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.card-body .sharebtn {
+    background: #EDEEF0;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 36px;
+}
+
+.card-body .date,
+.card-body .company,
+.card-body .location {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+
+.card-body .web-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 8px;
+    height: 38px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 140.4%;
+    margin-bottom: 32px;
+}
+
+.card-body .web-btn.red {
+    color: #E56135;
+}
+
+.card-body .web-btn.green {
+    color: #02B875;
+}
+
+.card-body .dropdown-toggle {
+    background: #ffffff00;
+    border: none;
+}
+
+.card-body .dropdown-toggle::after {
+    display: none;
+}
+
+/* .card-body .writter {} */

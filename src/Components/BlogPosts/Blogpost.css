@@ -47,3 +47,8 @@
     border: none;
     margin-inline: 8px;
 }
+
+
+.blog .cards {
+    max-width: 695px;
+}
